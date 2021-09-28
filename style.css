@@ -1,0 +1,102 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://imagens.ebc.com.br/VGDNS-Q7mYrwZXNclbB__a4Ms6A=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2021-07-22t131619z_1660260093_mt1tassp47102530_rtrmadp_3_tass-pic_1.jpg?itok=r1kIihTn");
+  background-color: #111;
+  background-size: 110%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.jogos-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+th,
+tr,
+td {
+  border: solid 1px black;
+  color: black;
+  background-color: #d8bfd8;
+}
+table img {
+  margin: 10px;
+  max-height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin: 0 15%;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: white;
+  background: #000000;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  box-shadow: 0 5px 0 #4f4f4f;
+  opacity: 0.8;
+}
